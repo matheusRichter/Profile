@@ -57,6 +57,12 @@ hr {
     height: 3px;
 }
 
+.javaImage {
+    height: 60%;
+    width: 60%;
+    border-radius: 30px;
+}
+
 .image {
     border-radius: 30px;
 }
