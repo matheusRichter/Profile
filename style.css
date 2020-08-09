@@ -60,3 +60,7 @@ hr {
 .image {
     border-radius: 30px;
 }
+
+p.contato {
+    padding-top: 0px;
+}
