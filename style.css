@@ -5,7 +5,11 @@ body {
     max-height: 640px;
 }
 
-.container {
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.myContainer {
     display: block;
     width: 50%;
     height: 100%;
@@ -20,7 +24,7 @@ body {
     overflow-y: auto;
 }
 
-.container::-webkit-scrollbar {
+.myContainer::-webkit-scrollbar {
     display: none;
 }
 
@@ -79,6 +83,11 @@ p.contato {
     padding-top: 0px;
 }
 
+.social {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 992px) {
     body {
         background-image: url("Assets/mobile-wallpaper.jpg");
@@ -87,12 +96,12 @@ p.contato {
         max-height: 100%;
     }
 
-    .container {
-        top: 50px;
+    .myContainer {
         position: relative;
         width: 80%;
         height: 1620px;
         overflow-y: auto;
+        margin-top: 22%;
     }
 
     .photo {
@@ -118,12 +127,12 @@ p.contato {
         max-height: 100%;
     }
 
-    .container {
-        top: 50px;
+    .myContainer {
         position: relative;
         width: 80%;
         height: 1300px;
         overflow-y: auto;
+        margin-top: 22%;
     }
 
     .photo {
